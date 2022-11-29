@@ -10,7 +10,11 @@
                     :exec-args {:installer :remote :artifact "clj-sample.jar"}}
            }
  :deps
- {clojure.java-time/clojure.java-time {:mvn/version "1.1.0"}}
+ {
+  clojure.java-time/clojure.java-time {:mvn/version "1.1.0"}
+  org.clojure/clojure {:mvn/version "1.11.1"}
+  http-kit/http-kit {:mvn/version "2.7.0-alpha1"}
+  }
 
 
  }
